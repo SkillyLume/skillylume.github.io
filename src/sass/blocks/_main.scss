@@ -1,0 +1,44 @@
+.main {
+	background-color: $bgc;
+	height: 100%;
+	padding: 21px 0 93px 0px;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-top: 150px;
+	}
+	&__title {
+		color: #fff;
+		font-size: 55px;
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 55px;
+		span {
+			color: $main-color;
+		}
+	}
+	&__subtitle {
+		color: #fff;
+		font-size: 25px;
+	}
+}
+
+.circle {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.one-circle {
+    width: 450px;
+    height: 450px;
+    background-color: #6600ff97;
+    border-radius: 100%;
+    position: absolute;
+    filter: blur(150px);
+    top: 150px;
+    left: 450px;
+    pointer-events: none;
+}

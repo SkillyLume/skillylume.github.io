@@ -1,0 +1,82 @@
+.hamburger {
+	display: none;
+    position: absolute;
+    right: 30px;
+    height: 21px;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    span {
+        width: 30px;
+        height: 3px;
+        background: #ffffff;
+    }
+}
+
+.menu-open {
+	overflow: hidden;
+}
+
+.menu {
+    position: fixed;
+	top: 30%;
+    right: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .6s;
+    &.active {
+        right: 0;
+        visibility: visible;
+		opacity: 1;
+    }
+    &__block {
+		position: relative;
+		display: flex;
+		align-items: center;
+		width: 85%;
+		height: 250px;
+		z-index: 10;
+		border-radius: 15px;
+		background: $window;
+		margin: 0 auto;
+    }
+    &__close {
+        position: absolute;
+        top: -40px;
+        right: -5px;
+        cursor: pointer;
+		color: #fff;
+    }
+	nav {
+		width: 100%;
+	}
+    &__list {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+
+    }
+    &__link {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 55px;
+		text-align: center;
+        a {
+            color: #fff;
+			text-decoration: none;
+        }
+    }
+	&__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $bgc;
+        opacity: .90;
+    }
+}
