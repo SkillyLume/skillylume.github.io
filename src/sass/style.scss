@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'MyCustomFont'; /* Здесь задайте имя шрифта */
-    src: url('../../src/font/Verdana-Bold.woff2') format('woff2'), /* Замените на реальный путь к файлу шрифта */
-         url('../../src/font/Verdana-Bold.woff') format('woff'); /* Замените на реальный путь к файлу шрифта */
+    font-family: 'MyCustomFont';
+    src: url('../../src/font/Verdana-Bold.woff2') format('woff2'),
+         url('../../src/font/Verdana-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,6 +10,9 @@
 
 @import 'base/variables';
 @import 'base/mixins';
+@import 'base/window';
+@import 'base/title';
+@import 'base/button';
 
 * {
     margin: 0;
@@ -42,4 +45,4 @@ body {
 @import 'blocks/variants';
 @import 'blocks/about';
 @import 'blocks/menu';
-@import 'blocks/media';
+@import 'media';

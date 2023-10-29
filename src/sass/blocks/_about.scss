@@ -1,0 +1,38 @@
+.about {
+	padding: 50px 0 50px 0;
+	height: 100%;
+	
+	&__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0px 35px 30px 35px !important;
+		&-title {
+			color: #fff;
+			font-size: 25px;
+			text-align: left;
+			padding-top: 30px;
+		}
+		&-text {
+			color: #fff;
+			margin-top: 15px;
+			text-align: center;
+			font-size: 20px;
+		}
+		&-social {
+			display: flex;
+			justify-content: left;
+			margin-top: 15px;
+			&-item {
+				margin-right: 10px;
+			}
+		}
+		&-divider {
+			display: block;
+			margin: 0 auto;
+			width: 70%;
+			margin-top: 30px;
+			border: 1px solid #fff;
+		}
+	}
+}
