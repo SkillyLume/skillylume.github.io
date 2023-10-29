@@ -5,12 +5,8 @@
 		display: none;
 	}
 	&__breadcrumbs {
-		background-color: $window;
-		max-width: 1000px;
 		width: 92%;
-		padding: 15px;
-		border-radius: 20px;
-		margin: 0 auto;
+		padding: 15px !important;
 		color: #fff;
 		font-size: 16px;
 		text-align: center;
@@ -41,8 +37,7 @@
 		max-width: 1000px;
 		margin: 0 auto;
 		&-title {
-			font-weight: 700;
-			font-size: 30px;
+			text-transform: none !important;
 		}
 		&-pdf {
 			display: inline-block;
@@ -51,7 +46,6 @@
 			text-decoration: underline;
 			&:hover {
 				color: #fff;
-				color: $hover;
 			}
 		}
 		&-text {
@@ -68,15 +62,9 @@
 	}
 
 	&__content {
-		background-color: $window;
-		max-width: 1000px;
-		padding: 5px;
-		border-radius: 20px;
-		margin: 0 auto;
-		margin-top: 40px;
+		margin-top: 40px !important;
 		&-title {
-			font-weight: 700;
-			font-size: 30px;
+			text-transform: none !important;
 		}
 		&-text {
 			font-size: 20px;
@@ -120,41 +108,3 @@
 	}
 
 }
-
-.solution-popup {
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
-	z-index: 100;
-	justify-content: center;
-	align-items: center;
-	transition: opacity 0.3s;
-  }
-  
-  .solution-content {
-	background-color: $main-color;
-	padding: 20px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  .close-button {
-	background-color: #e74c3c;
-	color: #fff;
-	border: none;
-	border-radius: 5px;
-	padding: 10px 20px;
-	font-size: 18px;
-	cursor: pointer;
-	transition: background-color 0.3s;
-	margin-top: 10px;
-  }
-  
-  .close-button:hover {
-	background-color: #c0392b;
-  }
-  

@@ -2,31 +2,20 @@ const hamburger = document.querySelector('.hamburger');
 const menu = document.querySelector('.menu');
 const closeElem = document.querySelector('.menu__close');
 
-hamburger.addEventListener('click', () => {
-  menu.classList.add('active');
-  document.body.classList.add('menu-open');
-});
+hamburger.addEventListener('click', toggleMenu);
+closeElem.addEventListener('click', toggleMenu);
 
-closeElem.addEventListener('click', () => {
-  menu.classList.remove('active');
-  document.body.classList.remove('menu-open');
-});
-
-closeElem.addEventListener('click', () => {
-    menu.classList.remove('active');
-});
+function toggleMenu() {
+  menu.classList.toggle('active');
+  document.body.classList.toggle('menu-open');
+}
 
 
 function checkAnswer(taskNumber, correctAnswer) {
     const answerInput = document.getElementById(`answer${taskNumber}`);
     const resultElement = document.getElementById(`result${taskNumber}`);
     const userAnswer = answerInput.value.toLowerCase();
-
-    if (userAnswer === correctAnswer) {
-        resultElement.style.color = "green";
-        resultElement.textContent = "Правильно";
-    } else {
-        resultElement.style.color = "red";
-        resultElement.textContent = "Неправильно";
-    }
+    
+    resultElement.style.color = userAnswer === correctAnswer ? "green" : "red";
+    resultElement.textContent = userAnswer === correctAnswer ? "Правильно" : "Неправильно";
 }

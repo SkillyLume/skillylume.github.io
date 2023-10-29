@@ -1,14 +1,6 @@
 .tasks {
 	height: 100%;
-	padding-top: 50px;
-	&__title {
-		text-transform: uppercase;
-		font-weight: 700;
-		font-size: 25px;
-		color: #fff;
-		text-align: center;
-		margin-bottom: 10px;
-	}
+	padding: 50px 0 50px 0;
 	&__list {
 		margin-top: 20px;
 		list-style-type: none;
