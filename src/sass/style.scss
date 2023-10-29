@@ -1,10 +1,4 @@
-@font-face {
-    font-family: 'MyCustomFont'; /* Здесь задайте имя шрифта */
-    src: url('../../src/font/Verdana-Bold.woff2') format('woff2'), /* Замените на реальный путь к файлу шрифта */
-         url('../../src/font/Verdana-Bold.woff') format('woff'); /* Замените на реальный путь к файлу шрифта */
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 @import 'libs/bootstrap-reboot.min';
 
@@ -45,4 +39,4 @@ body {
 @import 'blocks/variants';
 @import 'blocks/about';
 @import 'blocks/menu';
-@import 'blocks/media';
+@import 'media';
