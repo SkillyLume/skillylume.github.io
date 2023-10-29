@@ -1,0 +1,336 @@
+@media (max-width: 1200px) {
+	.container {
+		width: 850px;
+	}
+
+	.header {
+		padding: 0 40px 0 40px;
+		&__navigation {
+			&-item {
+				font-size: 18px;
+			}
+			&-title {
+				svg {
+					width: 250px;
+				}
+			}
+		}
+	}
+	.main {
+		&__wrapper {
+			margin-top: 80px;
+		}
+		&__title {
+			font-size: 40px;
+		}
+		&__subtitle {
+			font-size: 20px;
+		}
+	}
+
+	.task {
+		&__wrapper {
+			width: calc(100% - 8%);
+			margin: 0 auto;
+		}
+	}
+
+	.button {
+		width: 293px;
+		height: 60px;
+		font-size: 17px;
+		padding: 18px;
+	}
+
+	.one-circle {
+		left: 380px;
+		height: 300px;
+	}
+}
+
+
+@media (max-width: 992px) {
+	.container {
+		width: 700px;
+	}
+
+	.hamburger {
+		display: flex;
+	}
+
+	.header {
+		padding: 0 25px 0 25px;
+		&__navigation {
+			&-list {
+				display: none;
+			}
+		}
+	}
+
+	.task {
+		&__content {
+			&-input {
+				width: 90%;
+			}
+			&-btn {
+				margin-top: 10px;
+				width: 90%;
+			}
+		}
+		&__theory {
+			&-pdf {
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	.one-circle {
+		top: 160px;
+		left: 360px;
+		width: 250px;
+		height: 250px;
+		filter: blur(100px);
+	}
+}
+
+
+@media (max-width: 768px) {
+	.container {
+		width: 500px;
+	}
+
+	.main {
+		&__title {
+			font-size: 41px;
+		}
+		&__wrapper {
+			margin-top: 51px;
+		}
+		&__button {
+			&:hover {
+				background-color: $main-color;
+			}
+		}
+	}
+
+	.tasks {
+		&__list {
+			&-item {
+				a:hover {
+					background-color: $main-color;
+					transform: translateY(0px);
+				}
+			}
+		}
+	}
+
+	.task {
+		&__breadcrumbs {
+			&-item {
+				font-size: 18px;
+			}
+		}
+		&__theory {
+			&-title {
+				font-size: 25px;
+			}
+			&-pdf {
+				font-size: 20px;
+			}
+			&-text {
+				font-size: 13px;
+			}
+		}
+		&__content {
+			&-title {
+				font-size: 25px;
+			}
+			&-text {
+				font-size: 18px;
+			}
+		}
+	}
+
+	.about {
+		&__content {
+			&-text {
+				font-size: 18px;
+			}
+		}
+	}
+
+	.one-circle {
+		top: 180px;
+		left: 280px;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		width: 380px;
+	}
+
+	.header {
+		padding: 0 15px 0 15px;
+		&__navigation-title {
+			svg {
+				width: 250px;
+			}
+		}
+	}
+
+	.main {
+		&__title {
+			font-size: 37px;
+			line-height: 47px;
+		}
+		&__subtitle {
+			font-size: 18px;
+		}
+	}
+
+	.task {
+		padding: 20px 0 20px 0;
+		&__breadcrumbs {
+			&-item {
+				font-size: 18px;
+			}
+		}
+		&__theory {
+			&-title {
+				font-size: 25px;
+			}
+		}
+		&__content {
+			&-title {
+				font-size: 25px;
+			}
+			&-text {
+				font-size: 11pt;
+				line-height: 15px;
+			}
+			&-input {
+				font-size: 15px;
+			}
+			&-btn {
+				font-size: 15px;
+			}
+			&-result {
+				font-size: 15px;
+			}
+		}
+	}
+
+	.one-circle {
+		top: 180px;
+		left: 195px;
+		width: 200px;
+    	height: 200px;
+		filter: blur(70px);
+	}
+
+	//base
+	.title {
+		font-size: 23px;
+	}
+}
+
+@media (max-width: 430px) {
+	.container {
+		width: 310px;
+	}
+
+	.header {
+		height: 100px;
+		padding: 0 10px 0 10px;
+		&__navigation-title {
+			svg {
+				width: 200px;
+			}
+		}
+	}
+
+	.main {
+		&__title {
+			font-size: 30px;
+			line-height: 40px;
+		}
+	}
+
+	.task {
+		&__breadcrumbs {
+			&-item {
+				font-size: 15px;
+			}
+		}
+		&__theory {
+			&-title {
+				font-size: 20px;
+			}
+			&-pdf {
+				font-size: 15px;
+			}
+		}
+		&__content {
+			&-title {
+				font-size: 20px;
+			}
+			&-text {
+				font-size: 10pt;
+				line-height: 16px;
+			}
+			&-input {
+				margin-top: 10px;
+				width: 90%;
+				font-size: 15px;
+			}
+			&-btn {
+				margin-top: 10px;
+				width: 90%;
+				font-size: 15px;
+			}
+			&-result {
+				font-size: 15px;
+			}
+		}
+	}
+
+	.one-circle {
+		top: 180px;
+		left: 150px;
+		width: 150px;
+	}
+
+	.about {
+		&__content {
+			margin-top: 20px;
+			width: 92%;
+			padding: 0 15px 20px 15px !important;
+			&-title {
+				font-size: 20px;
+			}
+			&-text {
+				margin-top: 10px;
+				font-size: 10pt;
+			}
+			&-social {
+				margin-top: 10px;
+				a {
+					svg {
+						width: 75px;
+						height: 75px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// height
+@media (max-height: 400px) {
+	.menu {
+		top: 15%;
+	}
+}
