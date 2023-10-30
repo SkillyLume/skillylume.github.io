@@ -24,8 +24,9 @@ body {
 }
 
 .divider {
-    width: 60px;
+    width: 40px;
     height: 3px;
+	border-radius: 10px;
     background-color: $main-color;
 	margin: 5px auto 20px auto;
 }
