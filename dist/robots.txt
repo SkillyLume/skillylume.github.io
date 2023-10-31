@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /tasks.html
+Disallow: /task1.html
+Disallow: /variants.html
+Disallow: /about.html
+
+Sitemap: https://skillylume.ru/sitemap.xml
