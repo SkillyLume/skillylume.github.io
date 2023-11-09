@@ -2,14 +2,18 @@
 	background: #2b164ca2;
 	color: white;
 	display: flex;
-    padding: 0 100px 0 100px;
+    padding: 0 100px 0 20px;
     align-items: center;
     height: 125px;
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 20px;
+	margin-top: 20px;
 
 	&__title {
-	  text-align: center;
-	  font-size: 30px;
-	  margin-left: 20px;
+	  	text-align: center;
+	  	font-size: 30px;
+	  	margin-left: 20px;
 	}
   
 	&__navigation {
@@ -23,7 +27,7 @@
 			}
 		}
 		svg {
-			height: 100px;
+			width: 280px;
 		}
 	  }
   
@@ -44,12 +48,12 @@
 		  color: #fff;
 		  text-decoration: none;
 		  position: relative;
-  
 		  &:after {
 			content: "";
 			position: absolute;
+			top: 50px;
 			width: 0;
-			height: 1px;
+			height: 3px;
 			background-color: white;
 			bottom: 0;
 			left: 50%;
@@ -61,6 +65,11 @@
 			width: 100%;
 			left: 0;
 			animation: underline 1s infinite ease-in-out;
+		  }
+
+		  &:active:after {
+			width: 100%;
+			left: 0;
 		  }
 		}
 	  }

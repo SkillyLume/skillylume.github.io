@@ -5,17 +5,19 @@
 
 	.header {
 		padding: 0 40px 0 40px;
+		width: 90%;
 		&__navigation {
-			&-item {
-				font-size: 18px;
-			}
-			&-title {
-				svg {
-					width: 250px;
-				}
+			&-list {
+				display: none;
 			}
 		}
 	}
+
+	.hamburger {
+		display: flex;
+		margin-right: 5%;
+	}
+
 	.main {
 		&__wrapper {
 			margin-top: 80px;
@@ -51,11 +53,7 @@
 
 @media (max-width: 992px) {
 	.container {
-		width: 700px;
-	}
-
-	.hamburger {
-		display: flex;
+		width: 660px;
 	}
 
 	.header {
@@ -98,7 +96,7 @@
 
 @media (max-width: 768px) {
 	.container {
-		width: 500px;
+		width: 480px;
 	}
 
 	.main {
@@ -118,6 +116,9 @@
 	.tasks {
 		&__list {
 			&-item {
+				a {
+					width: 80%;
+				}
 				a:hover {
 					background-color: $main-color;
 					transform: translateY(0px);
@@ -176,7 +177,7 @@
 		padding: 0 15px 0 15px;
 		&__navigation-title {
 			svg {
-				width: 250px;
+				width: 230px;
 			}
 		}
 	}
@@ -239,23 +240,27 @@
 
 @media (max-width: 430px) {
 	.container {
-		width: 310px;
+		width: 290px;
 	}
 
 	.header {
 		height: 100px;
 		padding: 0 10px 0 10px;
-		&__navigation-title {
-			svg {
-				width: 200px;
-			}
-		}
+		width: 95%;
+	}
+
+	.hamburger {
+		display: flex;
+		margin-right: 0%;
 	}
 
 	.main {
 		&__title {
 			font-size: 30px;
 			line-height: 40px;
+		}
+		&__wrapper {
+			margin-top: 25px;
 		}
 	}
 
@@ -306,7 +311,7 @@
 	.about {
 		&__content {
 			margin-top: 20px;
-			width: 92%;
+			width: 100%;
 			padding: 0 15px 20px 15px !important;
 			&-title {
 				font-size: 20px;
