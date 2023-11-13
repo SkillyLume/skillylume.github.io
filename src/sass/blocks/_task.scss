@@ -110,7 +110,7 @@
 	}
 }
 
-/* task2.html styles */
+// task2.html styles
 .morse-table {
     margin: auto;
     display: grid;
@@ -131,6 +131,25 @@
 .morse-cell {
 	background-color: #6545af;
     text-align: center;
-    font-size: 25px;
-    border: 3px solid #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
 }
+
+
+// task4.html styles
+.table-container {
+	max-width: 100%;
+	overflow-x: auto;
+	margin-bottom: 10px;
+}
+  
+.table {
+	margin: auto;
+	width: auto;
+	border-collapse: collapse;
+}
+
+.table td, .table th {
+	padding: 5px;
+}
+  

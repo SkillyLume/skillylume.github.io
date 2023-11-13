@@ -1,11 +1,11 @@
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
 	.container {
 		width: 850px;
 	}
 
 	.header {
 		padding: 0 40px 0 40px;
-		width: 90%;
+		width: 95%;
 		&__navigation {
 			&-list {
 				display: none;
@@ -166,6 +166,15 @@
 		top: 180px;
 		left: 280px;
 	}
+
+	// task2.html styles
+	.morse-table {
+		width: 80%;
+	}
+
+	.morse-cell {
+		font-size: 11pt;
+	}
 }
 
 @media (max-width: 576px) {
@@ -230,6 +239,12 @@
 		width: 200px;
     	height: 200px;
 		filter: blur(70px);
+	}
+	
+	// task4.html styles	
+	.table td, .table th {
+		font-size: 8pt;
+		padding: 5px;
 	}
 
 	//base
@@ -331,6 +346,20 @@
 			}
 		}
 	}
+
+		// task2.html styles
+		.morse-table {
+			width: 90%;
+		}
+
+		.morse-cell {
+			font-size: 9pt;
+		}
+		
+		// task4.html styles
+		.table td, .table th {
+			font-size: 7pt;
+		}
 }
 
 // height
