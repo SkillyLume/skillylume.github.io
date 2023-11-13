@@ -14,8 +14,9 @@
 	<meta name="msapplication-TileColor" content="#603cba">
 	<meta name="theme-color" content="#6545af">
 	
-	<link rel="stylesheet" href="css/style.min.css">
-    <title>Полезные материалы</title>
+	<link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Задание 3</title>
 </head>
 <body>
 	<header class="header">
@@ -31,10 +32,10 @@
         </div>
 		<nav class="header__navigation"> 
 			<ul class="header__navigation-list">
-				<li class="header__navigation-item"><a href="tasks.html">ЗАДАНИЯ</a></li>
-				<li class="header__navigation-item"><a href="variants.html">ВАРИАНТЫ</a></li>
-				<li class="header__navigation-item"><a href="usefuls.html">ПОЛЕЗНЫЕ МАТЕРИАЛЫ</a></li>
-				<li class="header__navigation-item"><a href="about.html">О ПРОЕКТЕ</a></li>
+				<li class="header__navigation-item"><a href="/tasks.html">ЗАДАНИЯ</a></li>
+				<li class="header__navigation-item"><a href="/variants.html">ВАРИАНТЫ</a></li>
+				<li class="header__navigation-item"><a href="/usefuls.html">ПОЛЕЗНЫЕ МАТЕРИАЛЫ</a></li>
+				<li class="header__navigation-item"><a href="/about.html">О ПРОЕКТЕ</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -46,23 +47,121 @@
             </div>
             <nav>
                 <ul class="menu__list">
-					<li class="menu__link"><a href="tasks.html">ЗАДАНИЯ</a></li>
-					<li class="menu__link"><a href="variants.html">ВАРИАНТЫ</a></li>
-					<li class="menu__link"><a href="usefuls.html">ПОЛЕЗНЫЕ МАТЕРИАЛЫ</a></li>
-					<li class="menu__link"><a href="about.html">О ПРОЕКТЕ</a></li>
+					<li class="menu__link"><a href="/tasks.html">ЗАДАНИЯ</a></li>
+					<li class="menu__link"><a href="/variants.html">ВАРИАНТЫ</a></li>
+					<li class="menu__link"><a href="/usefuls.html">ПОЛЕЗНЫЕ МАТЕРИАЛЫ</a></li>
+					<li class="menu__link"><a href="/about.html">О ПРОЕКТЕ</a></li>
                 </ul>
             </nav>
         </div>
         <div class="menu__overlay"></div>
     </div>
 
-	<section class="usefuls">
-		<div class="container">
-			<h1 class="usefuls__title title">Полезные материалы</h1>
-			<div class="divider"></div>
+	<section class="task">
+		<h1 class="task__title">Задание 3</h1>
+		<div class="task__breadcrumbs window">
+			<a class="task__breadcrumbs-item" href="/">Главная</a>
+			<span>/</span>
+			<a class="task__breadcrumbs-item" href="/tasks.html">Задания</a>
+			<span>/</span>
+			<span class="task__breadcrumbs-item">Задание 3</span>
+		</div>
+		<div class="task__wrapper">
+			<div class="task__theory">
+				<div class="task__theory-title title">Теория</div>
+				<div class="divider"></div>
+				<a class="task__theory-pdf" href="#" target="_blank">Открыть теорию в формате PDF</a>
+				<div class="task__theory-text">После изучения теории, приступайте к решению задач ниже</div>
+			</div>
+			
+			<div class="task__content window">
+				<div class="task__content-title title">Задача 1</div>
+				<div class="divider"></div>
+				<div class="task__content-text">
+					<p>Напишите наименьшее целое число x, для которого истинно высказывание:</p>
+					<p>(X &lt; 6) И (X нечетное).</p>
+				</div>
+				<input class="task__content-input" type="text" id="answerTask31" placeholder="Введите ответ">
+				<button class="task__content-btn" onclick="checkAnswer('Task31', '7')">Проверить</button>
+				<p class="task__content-result" id="resultTask31"></p>
+			</div>
+
+			<div class="task__content window">
+				<div class="task__content-title title">Задача 2</div>
+				<div class="divider"></div>
+				<div class="task__content-text">
+					<p>Напишите наименьшее целое число x, для которого истинно высказывание:</p>
+					<p>НЕ (X &lt; 7) И (X четное).</p>
+				</div>
+				<input class="task__content-input" type="text" id="answerTask32" placeholder="Введите ответ">
+				<button class="task__content-btn" onclick="checkAnswer('Task32', '8')">Проверить</button>
+				<p class="task__content-result" id="resultTask32"></p>
+			</div>
+			
+			<div class="task__content window">
+				<div class="task__content-title title">Задача 3</div>
+				<div class="divider"></div>
+				<div class="task__content-text">
+					<p>Напишите наименьшее целое число x, для которого истинно высказывание:</p>
+					<p>(X &gt; 2) И НЕ (X &gt; 13).</p>
+				</div>
+				<input class="task__content-input" type="text" id="answerTask33" placeholder="Введите ответ">
+				<button class="task__content-btn" onclick="checkAnswer('Task33', '3')">Проверить</button>
+				<p class="task__content-result" id="resultTask33"></p>
+			</div>
+
+			<div class="task__content window">
+				<div class="task__content-title title">Задача 4</div>
+				<div class="divider"></div>
+				<div class="task__content-text">
+					<p>Напишите наименьшее целое число x, для которого истинно высказывание:</p>
+					<p>НЕ (X &lt; 6) И (X нечетное).</p>
+				</div>
+				<input class="task__content-input" type="text" id="answerTask34" placeholder="Введите ответ">
+				<button class="task__content-btn" onclick="checkAnswer('Task34', '7')">Проверить</button>
+				<p class="task__content-result" id="resultTask34"></p>
+			</div>
+			
+			<div class="task__content window">
+				<div class="task__content-title title">Задача 5</div>
+				<div class="divider"></div>
+				<div class="task__content-text">
+					<p>Напишите наименьшее целое число x, для которого истинно высказывание:</p>
+					<p>НЕ (X &lt; 2) И (X &lt; 5).</p>
+				</div>
+				<input class="task__content-input" type="text" id="answerTask35" placeholder="Введите ответ">
+				<button class="task__content-btn" onclick="checkAnswer('Task35', '2')">Проверить</button>
+				<p class="task__content-result" id="resultTask35"></p>
+			</div>
+			
+			<div class="task__content window">
+				<div class="task__content-title title">Задача 6</div>
+				<div class="divider"></div>
+				<div class="task__content-text">
+					<p>Напишите наименьшее число X, для которого истинно высказывание:</p>
+					<p>(X &gt; 16) И НЕ (X нечетное).</p>
+				</div>
+				<input class="task__content-input" type="text" id="answerTask36" placeholder="Введите ответ">
+				<button class="task__content-btn" onclick="checkAnswer('Task36', '18')">Проверить</button>
+				<p class="task__content-result" id="resultTask36"></p>
+			</div>
+			
+			<div class="task__content window">
+				<div class="task__content-title title">Задача 7</div>
+				<div class="divider"></div>
+				<div class="task__content-text">
+					<p>Напишите наименьшее натуральное двузначное число, для которого истинно высказывание:</p>
+					<p>НЕ (первая цифра нечетная) И (число делится на 3).</p>
+				</div>
+				<input class="task__content-input" type="text" id="answerTask37" placeholder="Введите ответ">
+				<button class="task__content-btn" onclick="checkAnswer('Task37', '21')">Проверить</button>
+				<p class="task__content-result" id="resultTask37"></p>
+			</div>
+			
+				
+			
 		</div>
 	</section>
-
-	<script src="js/script.js"></script>
+	<script src="/js/script.js"></script>
 </body>
 </html>
