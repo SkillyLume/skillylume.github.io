@@ -95,3 +95,24 @@
 	  transform: translateX(-50%);
 	}
 }
+
+#gir {	
+    position: absolute;
+    background-image:url('../../img/gir.png');
+	top: 0;
+	left: 0;
+    height: 62px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none
+}  
+.gir_1 {
+    background-position: 0 0
+}  
+.gir_2 {
+    background-position: 0 -62px
+}  
+.gir_3 {
+    background-position: 0 -124px
+}

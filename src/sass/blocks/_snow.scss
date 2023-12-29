@@ -1,0 +1,55 @@
+.snowContainer {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	z-index: 4;
+	pointer-events: none;
+}
+
+#snow {
+	width: 100%;
+	height: 100%;
+	background-image: url("../../img/snow/snow_1.png"), url("../../img/snow/snow_2.png"), url("../../img/snow/snow_3.png");
+	-webkit-animation: snow 20s linear infinite;
+	-moz-animation: snow 20s linear infinite;
+	-ms-animation: snow 20s linear infinite;
+	animation: snow 20s linear infinite;
+}
+
+@keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}
+
+@-moz-keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}
+
+@-webkit-keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}
+
+@-ms-keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}
