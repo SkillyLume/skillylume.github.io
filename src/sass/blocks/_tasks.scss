@@ -9,6 +9,7 @@
 			margin: 0 auto;
 			margin-bottom: 25px;
 			a {
+                position: relative;
 				margin: 0 auto;
 				text-align: center;
 				text-decoration: none;
@@ -20,6 +21,7 @@
 				border-radius: 5px;
 				font-weight: bold;
 				transition: transform 0.2s;
+                z-index: 6;
 			}
 			a:hover {
 				background-color: $hover;
