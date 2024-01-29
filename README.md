@@ -1,18 +1,31 @@
 # SkillyLume
-### Welcome to SkillyLume. This project will help you prepare for the OGE in computer science and was created solely as an individual project.
-### 🚀Created:
+### Welcome to SkillyLume. This project was created exclusively as an individual project in the 10th grade and it will help you prepare for the OGE in computer science (Russian exam for informatics)
+
+## Branch Details
+
+### 1. main
+
+- `main` - branch holds the original, uncompressed source code of the project
+
+### 2. github-pages
+
+- `github-pages` - branch is specifically tailored for public access. It includes compressed code, optimized for performance
+
+## Info
+### Created:
 - (26.10.2023) in the 10th grade
-### ✨Features:
+### Features:
 - Stylish design for 2023
 - Responsiveness: Fully adaptable to different devices and screen sizes.
-### 🛠️Technologies:
+### Technologies:
 - HTML, SCSS, JavaScript, Gulp, Git
 
-### 👀View:
+### Demo:
 - [skillylume.ru](http://skillylume.ru)
 
 
-### 💾Installation:
+## Getting Started
+
 ```
 git clone https://github.com/SkillyLume/skillylume.github.io.git
 ```
@@ -26,5 +39,5 @@ npm install --global gulp-cli
 ```
 
 
-### 🧾License:
+## License:
 MIT © Radmir Uzyanbaev
