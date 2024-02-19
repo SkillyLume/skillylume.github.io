@@ -1,10 +1,14 @@
-# Language Selection / Выбор языка
+# SkillyLume 
+
+<img src="https://github.com/SkillyLume/skillylume.github.io/assets/108973583/ea2b12ab-ffca-46a1-b011-806176e8bff6" width="500">
+
+## Language Selection / Выбор языка
 - [English](#english)
 - [Russian](#russian)
 
 <hr>
 
-# SkillyLume <a name="english"></a>
+<a name="english"></a>
 ### Welcome to SkillyLume. This project was created exclusively as an individual project in the 10th grade and it will help you prepare for the OGE in computer science (Russian exam for informatics)
 
 ## Branch Details
@@ -43,7 +47,7 @@ npm install --global gulp-cli
 
 <hr>
 
-# SkillyLume <a name="russian"></a>
+<a name="russian"></a>
 ### Добро пожаловать в SkillyLume. Этот проект был создан исключительно как индивидуальный проект в 10-м классе и поможет вам подготовиться к ОГЭ по информатике
 
 ## Ветки проекта
