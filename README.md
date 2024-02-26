@@ -1,6 +1,6 @@
 # SkillyLume 
 
-<img src="https://github.com/SkillyLume/skillylume.github.io/assets/108973583/ea2b12ab-ffca-46a1-b011-806176e8bff6" width="500">
+<img src="https://github.com/SkillyLume/skillylume.github.io/blob/main/src/img/skillylume.png?raw=true" width="500">
 
 ## 🌐 Language Selection / Выбор языка
 - [English](#english)
