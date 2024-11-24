@@ -5,4 +5,4 @@ Disallow: /variants.html
 Disallow: /about.html
 Disallow: /usefuls.html
 
-Sitemap: https://skillylume.ru/sitemap.xml
+Sitemap: https://skillylume.github.io/sitemap.xml
