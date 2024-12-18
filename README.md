@@ -30,7 +30,7 @@ Welcome to SkillyLume. This project was created exclusively as an individual pro
 - HTML, SCSS, JavaScript, Gulp, Git
 
 ### Demo:
-- [skillylume.ru](http://skillylume.ru)
+- [skillylume.github.io](http://skillylume.github.io)
 
 
 ## 🚀 Getting Started
@@ -71,7 +71,7 @@ npm install --global gulp-cli
 - HTML, SCSS, JavaScript, Gulp, Git
 
 ### Демонстрация:
-- [skillylume.ru](http://skillylume.ru)
+- [skillylume.github.io](http://skillylume.github.io)
 
 
 ## 🚀 Начало работы
